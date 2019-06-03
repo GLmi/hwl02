@@ -1,7 +1,8 @@
 #include <iostream>
 #include <string>
 
-int main(){
+int main()
+{
 string username;
 std::cout << "Paste your username:";
 getline(cin, username);
