@@ -1,5 +1,9 @@
 #include <iostream>
-using namespace std;
+#include <string>
+
 int main(){
-cout<<"Hello, world";
+string username;
+std::cout << "Paste your username:";
+getline(cin, username);
+std::cout << "Hello world from " << username;
 }
