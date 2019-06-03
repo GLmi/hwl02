@@ -3,8 +3,8 @@
 
 int main()
 {
-string username;
+string username; 
 std::cout << "Paste your username:";
-getline(cin, username);
+getline(cin, username); // getting username
 std::cout << "Hello world from " << username;
 }
